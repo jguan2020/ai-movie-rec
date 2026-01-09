@@ -10,12 +10,19 @@ from psycopg2.extras import RealDictCursor
 import streamlit as st
 
 load_dotenv()
+st.set_page_config(page_title="FindMovies · Find a Movie", page_icon="🎬")
 
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "text-embedding-3-small")
 CANONICAL_PATH = "canonical_top_k400.txt"  # hardcoded to k400 canonical set
 LLM_API_KEY = os.getenv("LLM_API_KEY")
+SPINNER_HTML = """
+<div class="loader-wrap">
+  <div class="loader"></div>
+  <span>Loading...</span>
+</div>
+"""
 
 
 @st.cache_resource(show_spinner=False)
@@ -187,6 +194,16 @@ def main():
         .pill {display:inline-block;padding:2px 10px;border-radius:999px;background:#e0f2fe;color:#0f172a;margin-right:6px;margin-bottom:4px;font-size:12px;}
         .meta {color:#64748b;font-size:13px;margin:4px 0;}
         .matched {color:#0ea5e9;font-weight:600;}
+        /* Custom spinner */
+        .loader-wrap {display: inline-flex; align-items: center; gap: 8px; color: #ffffff; font-size: 14px;}
+        .loader {
+          width: 18px; height: 18px;
+          border: 3px solid rgba(255,255,255,0.2);
+          border-top: 3px solid #ffffff;
+          border-radius: 50%;
+          animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin {0% {transform: rotate(0deg);} 100% {transform: rotate(360deg);}}
         </style>
         """,
         unsafe_allow_html=True,
@@ -228,8 +245,10 @@ def main():
     # Featured strip under hero
     featured = []
     if not has_search:
-        with st.spinner("Loading featured..."):
-            featured = fetch_featured(limit=8)
+        loader = st.empty()
+        loader.markdown(SPINNER_HTML, unsafe_allow_html=True)
+        featured = fetch_featured(limit=8)
+        loader.empty()
     if not has_search and featured:
         st.markdown("### Featured")
         IMG_BASE = "https://image.tmdb.org/t/p/w342"
@@ -266,9 +285,11 @@ def main():
     chosen_tags: List[str] = []
     if find_clicked:
         st.session_state["has_search"] = True
-        with st.spinner("Finding movies..."):
-            chosen_tags = map_query_to_tags(overview_query)
-            results = fetch_movies(language, chosen_tags, limit=50)
+        loader = st.empty()
+        loader.markdown(SPINNER_HTML, unsafe_allow_html=True)
+        chosen_tags = map_query_to_tags(overview_query)
+        results = fetch_movies(language, chosen_tags, limit=50)
+        loader.empty()
 
     if chosen_tags:
         st.write("Matched tags:")
