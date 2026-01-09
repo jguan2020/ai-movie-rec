@@ -1,0 +1,400 @@
+biography/true story	4590
+romance	3402
+music/bands	2697
+comedy	2661
+crime	2659
+family	2523
+documentary	2118
+coming-of-age	1827
+war	1720
+literary adaptation	1650
+film industry	1569
+action	1530
+adventure	1417
+animation	1379
+fantasy	1373
+military	1343
+television	1331
+thriller	1247
+revenge	1181
+stand-up comedy	1146
+historical	1130
+friendship	1116
+murder	1014
+small town	939
+psychological thriller	917
+sports	909
+survival	876
+marriage	851
+space	839
+musical	835
+horror	825
+theatre	815
+journalism/investigation	810
+supernatural	773
+religion	760
+investigation	751
+science fiction	740
+live performance	738
+courtroom/legal	732
+school	732
+urban life	729
+reunion	720
+mystery	718
+satire	685
+gangsters	659
+black comedy	647
+police	637
+period piece	633
+film festival	623
+superheroes	612
+prison	610
+violence	609
+animals	604
+children	580
+filmmaking	561
+professional wrestling	554
+1960s	554
+rock	550
+politics	542
+true story	524
+social issues	524
+spies/espionage	519
+racism	515
+disability	505
+activism	492
+western	491
+regional cinema	489
+siblings	481
+immigration	467
+neo-noir	466
+smuggling	465
+poverty	464
+relationships	464
+magic	461
+archival footage	458
+classical music	457
+class conflict	445
+cultural clash	440
+death	436
+political repression	436
+father-son relationship	435
+dance	434
+remake	433
+football	433
+sequel	431
+competition	421
+conspiracy	421
+martial arts	413
+cold war	412
+vampires	401
+detective	393
+terrorism	392
+censorship	382
+grief	378
+celebrity	376
+identity	372
+mob	370
+ensemble cast	366
+revolution	365
+adaptation	364
+female protagonist	362
+apocalypse	362
+voice acting	356
+monarchy	354
+christmas	351
+holocaust	348
+aliens	342
+corruption	342
+concert tour	341
+alcoholism	335
+environmentalism	332
+anthology	329
+concert	328
+epic	327
+entrepreneurship	324
+suicide	323
+radio	323
+samurai	320
+treasure hunt	320
+origin story	319
+teen	313
+spirituality	312
+lgbt	309
+time travel	308
+art	305
+parenting	304
+assassination	301
+modeling	297
+loneliness	292
+pay-per-view	289
+naval warfare	289
+philosophy	286
+show business	280
+transgender	280
+obsession	276
+political	276
+prostitution	270
+team	269
+aging	267
+mentorship	266
+isolation	265
+drug trafficking	265
+painting	264
+singer-songwriter	263
+jazz	263
+feminism	263
+reality television	263
+working-class	262
+colonialism	261
+1980s	260
+protests	259
+college	254
+behind-the-scenes	252
+desert	251
+music industry	250
+rivalry	249
+1930s	248
+multilingual	247
+international co-production	246
+soundtrack	245
+kidnapping	241
+escape	240
+nostalgia	238
+photography	238
+counterculture	238
+agriculture	237
+19th century	236
+slice of life	235
+awards	234
+social commentary	233
+insurgency	232
+video games	229
+memory	229
+live album	229
+sexual violence	228
+sexuality	227
+self-discovery	220
+labor movement	219
+history	214
+astronauts	214
+infidelity	213
+youth	213
+migration	213
+food	213
+homelessness	211
+controversy	210
+screenwriting	209
+tourism	209
+wrongful conviction	206
+silent film	204
+invasion	203
+motherhood	199
+medieval	199
+domestic life	199
+studio recording	198
+media	196
+rebellion	193
+vigilante	193
+interviews	191
+medical	190
+mountains	189
+communism	188
+blindness	188
+bullying	187
+literature	186
+civil war	184
+celebrity culture	184
+rescue	183
+moral dilemma	183
+horses	182
+nuclear weapons	181
+chart success	179
+finance	179
+philanthropy	176
+improvisation	175
+independent film	174
+trauma	174
+bereavement	173
+inheritance	172
+dystopia	171
+workplace	170
+generational conflict	170
+survivors	167
+artificial intelligence	162
+hospital	162
+noir	161
+erotic	159
+homosexuality	159
+box office	157
+hotel	157
+fashion	155
+restaurant	155
+antisemitism	153
+auto racing	153
+poetry	152
+retirement	152
+clergy	152
+hip hop	151
+architecture	151
+studio anniversaries	150
+author	150
+theatrical release	148
+air combat	148
+caregiving	147
+pregnancy	147
+ocean	147
+action-adventure	145
+conservation	144
+manga	144
+human rights	142
+heavy metal	140
+social realism	138
+factory	138
+aviation	136
+pandemic	136
+siege	136
+singing	136
+childhood	134
+indigenous peoples	134
+women	133
+ancient egypt	133
+alienation	132
+frontier	130
+technology	130
+aristocracy	130
+femme fatale	130
+nationalism	129
+hitman	128
+winter	128
+exile	123
+social media	123
+city life	123
+river	123
+public health	122
+elections	122
+train	122
+veterans	121
+experimental	121
+bureaucracy	120
+power struggle	120
+shipwreck	118
+cover songs	118
+television film	117
+border crossing	116
+advertising	112
+national identity	112
+government	111
+estrangement	111
+cycling	110
+fish-out-of-water	109
+corporate	109
+bodybuilding	109
+catholicism	108
+cars	108
+diplomacy	107
+tanks	107
+plantation	106
+seduction	105
+child abuse	105
+directorial debut	105
+midlife crisis	105
+pop	104
+underworld	104
+skateboarding	104
+arson	104
+alcohol	103
+dinosaurs	102
+career retrospective	102
+puppetry	100
+country	100
+orchestra	99
+underwater	99
+ambition	97
+critical acclaim	96
+period setting	95
+black-and-white	95
+chase	95
+surfing	94
+grassroots activism	94
+inspirational	92
+brotherhood	91
+american dream	91
+adoption	90
+mutants	89
+mining	89
+african-american history	88
+long-running series	87
+virtual reality	87
+early 20th century	86
+museum	86
+wealth	86
+anti-communism	86
+humanitarian crisis	86
+cross-dressing	85
+stadium	85
+stunts	83
+corporate corruption	83
+athlete	81
+ceremony	81
+jungle	80
+native americans	78
+industrialization	76
+special effects	75
+computers	75
+government cover-up	74
+islam	72
+justice	71
+students	71
+trial	69
+lineup changes	69
+whistleblowing	69
+migrant workers	69
+piano	69
+dogs	68
+summer camp	67
+books	67
+nightclub	66
+negotiation	66
+plane crash	65
+art theft	64
+sharks	64
+band breakup	63
+antiques	63
+record sales	62
+expatriate life	62
+toys	59
+survivor testimony	58
+neuroscience	58
+pilots	57
+local government	56
+hosting	55
+psychotherapy	55
+outsider	54
+land dispute	54
+ex-convict	53
+abortion	53
+existential crisis	51
+curse	50
+taxi driver	50
+democracy	49
+conscription	48
+disco	46
+cybersecurity	44
+stoner	43
+year-in-review	42
+brand rivalry	41
+corporate takeover	39
+student activism	37
+superpowers	36
+satellite transmission	35
+search	32
+train station	30
+rock band	25
+white-collar crime	24
+infrastructure	18
+etymology	16
+upcoming releases	11
+social hierarchy	9
+happiness	3
+heir	3
